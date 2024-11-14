@@ -10,8 +10,8 @@ export default function Artigo({ texto, posicaoDoTexto, nomeImagem, altImagem }:
         return (
             <>
                 <div className="flex flex-row justify-center items-center h-screen">
-                    <p>{texto}</p>
-                    <img src={`"../images/${nomeImagem}"`} alt={`"${altImagem}"`}></img>
+                    <p className="justify">{texto}</p>
+                    <img src={`/images/${nomeImagem}`} alt={`${altImagem}`}></img>
                 </div>
             </>
         )
