@@ -1,6 +1,7 @@
 import Navbar from "@/components/navbar";
 import Artigo from "@/components/artigo";
 import Titulo from "@/components/titulo";
+import Footer from "@/components/footer"
 
 export default function historico() {
     return (
@@ -13,6 +14,7 @@ export default function historico() {
         nomeImagem="mosquitoegito.svg"
         altImagem="Imagem de um mosquito da dengue rodeando um barco, ao fundo pode-se ver pirâmides e uma esfinge"
         ></Artigo>
+        <Footer />
         </>    
 )
 }
