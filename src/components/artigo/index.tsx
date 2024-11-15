@@ -9,9 +9,9 @@ export default function Artigo({ texto, posicaoDoTexto, nomeImagem, altImagem }:
     if (posicaoDoTexto == 'L') {
         return (
             <>
-                <div className="w-4/5 flex flex-row justify-center items-center h-screen">
-                    <p className="text-justify">{texto}</p>
-                    <img src={`/images/${nomeImagem}`} alt={`${altImagem}`}></img>
+                <div className="flex flex-col mx-16 md:flex-row items-center gap-4 h-screen">
+                    <p className="text-justify md:w-1/2">{texto}</p>
+                    <img className="h-auto md:w-1/2" src={`/images/${nomeImagem}`} alt={`${altImagem}`}></img>
                 </div>
             </>
         )
@@ -20,9 +20,9 @@ export default function Artigo({ texto, posicaoDoTexto, nomeImagem, altImagem }:
     if (posicaoDoTexto == 'R') {
         return (
             <>
-                <div className="w-4/5 flex flex-row justify-center items-center h-screen">
-                    <img src={`"../images/${nomeImagem}"`} alt={`"${altImagem}"`}></img>
-                    <p className="text-justify">{texto}</p>
+                <div className="flex flex-col mx-16 md:flex-row items-center gap-4 h-screen">
+                    <img className="h-auto md:w-1/2" src={`../images/${nomeImagem}`} alt={`${altImagem}`}></img>
+                    <p className= "text-justify md:w-1/2">{texto}</p>
                 </div>
             </>
         )
