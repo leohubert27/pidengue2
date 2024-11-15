@@ -1,10 +1,12 @@
 import Navbar from "@/components/navbar";
 import Titulo from "@/components/titulo";
 import Artigo from "@/components/artigo";
+import Footer from "@/components/footer";
 
 export default function diagnostico() {
     return (
         <>
+        <Navbar />
         <Titulo texto="Sintomas" />
         <Artigo 
         texto="Os sintomas são derivados das possíveis três fases da dengue, e eles começam cerca de cinco dias após a picada, esse período é conhecido como incubação e seus sintomas são febre alta, fortes dores de cabeça e também atrás dos olhos, náuseas, canseira e o surgimento de manchas vermelhas no corpo, esta fase é considerada sem sinais de alerta e seus sintomas só permanecem por alguns dias. Caso os sintomas se agravem ao fim da primeira semana então ela é considerada com sinais de alerta, somente uma pequena parte atinge este estado, seus sintomas são dor abdominal intensa, vômitos recorrentes, canseira, desidratação e sangramentos nas mucosas, e deve ser tratada com a devida atenção pois o quadro viral pode evoluir rapidamente para dengue grave. Antigamente chamada de dengue hemorrágica nessa fase os sintomas avançam causando uma hemorragia intensa, colapso circulatório e falência múltipla dos órgãos sendo a principal causa de óbito."
@@ -17,7 +19,7 @@ export default function diagnostico() {
         posicaoDoTexto="R"
         nomeImagem="tuboteste.svg" 
         altImagem="Foto de um tubo com sangue, um adesivo colado tem uma marcação de postivo sobre um texto que diz dengue." />
-        <Navbar/>
+        <Footer />
         </>
     )
 }

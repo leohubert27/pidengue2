@@ -1,6 +1,7 @@
 import Navbar from "@/components/navbar";
 import Artigo from "@/components/artigo";
 import Titulo from "@/components/titulo";
+import Footer from "@/components/footer";
 
 export default function oque() {
     return (
@@ -12,6 +13,7 @@ export default function oque() {
             nomeImagem="virusmicroscopio.svg" 
             altImagem="Imagem computadorizada do vírus da dengue visito por microscópio"
             />
+            <Footer />
         </>
     )
 }

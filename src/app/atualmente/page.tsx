@@ -1,6 +1,7 @@
 import Navbar from "@/components/navbar";
 import Artigo from "@/components/artigo"
 import Titulo from "@/components/titulo";
+import Footer from "@/components/footer";
 
 export default function atualmente() {
     return (
@@ -13,6 +14,7 @@ export default function atualmente() {
         nomeImagem="infografico.svg"
         altImagem="Gráfico que apresenta algumas informações sobre a dengue no Brasil, uma pesquisa de 24 de maio de 2024, os dados apresentados são 5.239.867 casos prováveis, 3.038 mortes confirmadas e 2.679 mortes em investigação"
         heightImagem="max-h-96" />
+        <Footer />
         </>
     )
 }
