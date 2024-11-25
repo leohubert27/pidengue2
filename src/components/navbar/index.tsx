@@ -1,9 +1,3 @@
-type pageIndex = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8
-
-interface NavbarProps {
-    active: pageIndex
-}
-
 import Link from "next/link"
 
 export default function Navbar() {
