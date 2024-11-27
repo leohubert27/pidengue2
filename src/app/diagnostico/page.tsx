@@ -1,9 +1,10 @@
+'use client'
 import Navbar from "@/components/navbar";
 import Titulo from "@/components/titulo";
 import Artigo from "@/components/artigo";
 import Footer from "@/components/footer";
 
-export default function diagnostico() {
+export default function Diagnostico() {
     return (
         <>
         <Navbar />

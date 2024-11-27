@@ -11,7 +11,7 @@ interface dataType {
     casos: number
 }
 
-export default function atualmente() {
+export default function Atualmente() {
     const [status, setStatus] = useState< number | null | undefined >(null)
     const [data, setData] = useState< dataType[] | null | undefined >(null)
     const [loading, setLoading] = useState< boolean>(true)

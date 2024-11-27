@@ -1,9 +1,10 @@
+'use client'
 import Navbar from "@/components/navbar";
 import Artigo from "@/components/artigo";
 import Titulo from "@/components/titulo";
 import Footer from "@/components/footer";
 
-export default function prevencao() {
+export default function Prevencao() {
     return (
         <>
         <Navbar/>

@@ -1,6 +1,7 @@
+'use client'
 import Navbar from "@/components/navbar";
 
-export default function matematica() {
+export default function Matematica() {
     return (
         <Navbar/>
     )

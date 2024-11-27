@@ -1,7 +1,8 @@
+'use client'
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 
-export default function home(){
+export default function Home(){
   return(
     <body className="bg-blue-50">
       <Navbar/>

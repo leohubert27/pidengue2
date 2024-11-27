@@ -1,9 +1,10 @@
+'use client'
 import Navbar from "@/components/navbar";
 import Artigo from "@/components/artigo";
 import Titulo from "@/components/titulo";
 import Footer from "@/components/footer";
 
-export default function oque() {
+export default function Oque() {
     return (
         <>
             <Navbar />
