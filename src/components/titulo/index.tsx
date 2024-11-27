@@ -8,7 +8,7 @@ export default function Titulo({texto}: TituloProps) {
     return (
         <>
             <div className="title mx-auto w-[90%] mt-10">
-            <h2 className="titleText">{texto}</h2>
+            <h2 className="titleText" style={{fontWeight: 'normal'}}>{texto}</h2>
             </div>
             <style jsx>{`
                 .title{

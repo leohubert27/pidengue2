@@ -25,6 +25,13 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h2 {
+  font-family: 'Arial', 'Helvetica';
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
 .linkFooter {
   font-weight: 1rem;
   transition-property: font-size;
